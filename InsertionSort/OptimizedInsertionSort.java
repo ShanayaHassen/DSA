@@ -14,6 +14,7 @@ public class OptimizedInsertionSort {
             arr[j + 1] = curVal;
         }
         
+        System.out.print("Sorted Array: ");
         for(int i=0; i<arr.length; i++){
        		System.out.print(arr[i] + " ");
        }
