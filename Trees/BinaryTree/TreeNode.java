@@ -1,9 +1,9 @@
 public class TreeNode {
-    char data;
+    int data;
     TreeNode left;
     TreeNode right;
 
-    public TreeNode(char data) {
+    public TreeNode(int data) {
         this.data = data;
         this.left = null;
         this.right = null;
